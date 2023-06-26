@@ -148,3 +148,19 @@ console.log(typeof(u))
 let fruits=["tomate", "apple", "kiwi"];
 let t = fruits.every((el)=>el.length>=4);
 console.log(t);
+
+// find
+// la methode find() renvoie la valeur du premier element qui repond la condition donnee
+//let fruits=["tomate", "apple", "kiwi"];
+let i=fruits.find((el)=>el.length!==5);
+console.log(i);
+
+//some
+//la methode some() teste si au moins un element du tableau verifie la condition
+//let fruits=["tomate", "apple", "kiwi"];
+let j=fruits.some((el)=>el==="orange");
+console.log(j);
+
+
+
+
